@@ -1,0 +1,41 @@
+#contenedor{
+    background-color: black;
+    height: 750px;
+    width: 850px;
+    display: inline-block;
+}
+
+#menu {
+    background-color: #d6ffb7;
+    height: 750px;
+    width: 295px;
+    display: inline-block;
+}
+
+#contenido {
+    background-color: #ff9f1c;
+    height: 750px;
+    width: 550px;
+    display: inline-block;
+}
+
+#perfil {
+    background-color: rgba(100, 255, 80, 0.89);
+    height: 150px;
+    width: 295px;
+    display: inline-block;
+}
+
+#opciones {
+    background-color: rgb(80, 127, 255);
+    height: 450px;
+    width: 295px;
+    display: inline-block;
+}
+
+#configuracion {
+    background-color: rgba(255, 80, 203, 0.877);
+    height: 150px;
+    width: 295px;
+    display: inline-block;
+}
