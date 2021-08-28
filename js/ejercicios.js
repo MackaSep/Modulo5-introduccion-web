@@ -70,10 +70,60 @@ if (n == 1) {
 
 // Arreglo / Array
 
-let usuarios = [usuario1, usuario2, usuario3, usuario4, usuario5, usuario6, usuario7, usuario8]
 
-if (n<= usuarios.length) {
-    console.log("Hola con arreglo " usuarios[n-1])
+
+// Ejercicio 1-28 / IF
+
+a = 90
+b = 50 
+if (a > b) {
+    console.log(a + " es mayor")
 }else{
-    console.log("Usuario no registrado")
+    console.log(b + " es mayor")
 }
+
+// Ejercicio 2-28 / IF
+
+a = 30
+b = 10
+if (a > b) {
+    console.log(a + " es mayor y " + b + " es menor")
+}else if (a < b){ 
+    console.log(b + " es mayor y " + a + " es menor")
+}else{
+    console.log(a + "y" + b + " son iguales")
+}
+
+// Ejercicio 3-28 / División Modular %
+
+n = 8
+
+if (n % 2 == 0) {
+    console.log(n + " es par")
+}else{
+    console.log(n + " es IMPAR")
+}
+
+// Ejercicio 4-28 
+    // Categorías
+    // - A Todo Público
+    // - B Desde los 9 años
+    // - C Desde los 18
+    // - D Desde los 25
+
+let edad = 5
+
+let categoria = "B"
+
+if (categoria == "A") {
+    console.log("Sí puede ver la película")
+}else if (categoria == "B"){
+    if (edad >= 9) {
+        console.log("Sí puede ver la película")    
+    }else{
+        console.log("No puede ver la película")
+    }
+}
+
+// Ejercicio con o si
+
